@@ -39,7 +39,7 @@ export default function FooterSection() {
             <div className="flex items-center gap-2 mb-6">
               <Terminal className="h-6 w-6 text-cyan-400" />
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-                Make-a-Thon 6.0
+                Make-A-Thon 6.0
               </span>
             </div>
             <p className="text-gray-400 mb-6">
@@ -187,7 +187,7 @@ export default function FooterSection() {
           viewport={{ once: true }}
           className="mt-16 pt-8 border-t border-cyan-500/20 text-center"
         >
-          <p className="text-gray-500 text-sm">© 2025 Make-a-Thon 6.0. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© 2025 Make-A-Thon 6.0. All rights reserved.</p>
           {/*<div className="flex justify-center gap-4 mt-4 text-xs text-gray-500">
             <a href="#" className="hover:text-cyan-400 transition-colors">
               Privacy Policy
