@@ -289,7 +289,7 @@ export default function AboutSection({ scrollYProgress }) {
                     >
                      <div className="w-32 h-32 bg-gradient-to-br from-cyan-500/30 to-purple-500/30 rounded-lg backdrop-blur-md border border-white/20 shadow-lg shadow-cyan-500/30 flex items-center justify-center">
                       <img 
-                        src="/ic_chip.png" 
+                        src="/sustainable.png" 
                         alt="Holographic Element" 
                         className="w-28 h-28 object-cover rounded-lg"
                      />
