@@ -107,7 +107,7 @@ export default function AboutSection({ scrollYProgress }) {
             Make-A-Thon is the flagship event of the Electronics and Communication Engineering department of 
             Sri Venkateswara College of Engineering. It serves as a platform for the participants to showcase 
             their talents and expertise in project development and deepen their problem-solving skills. After the 
-            successful events of Make-A-thon 1.0,2.0,3.0,4.0 and 5.0 the Electronics and Communication Engineers Association, 
+            successful events of Make-A-Thon 1.0,2.0,3.0,4.0 and 5.0 the Electronics and Communication Engineers Association, 
             The Institution of Electronics and Telecommunication Engineers - SF & Robotics and Artificial 
             Intelligence Club are all set to conduct the “Make-A-Thon 6.0” as an inter-collegiate event. This event 
             serves as an opportunity for the students to upskill themselves on recent technologies.
