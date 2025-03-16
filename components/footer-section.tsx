@@ -46,16 +46,10 @@ export default function FooterSection() {
             The ultimate innovation-driven hackathon where developers, designers, and tech enthusiasts unite to build groundbreaking hardware and software solutions.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                <Github className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
+              <a href="https://www.linkedin.com/in/ecea-svce-2b49062b7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYprFH8OrRC6A1QCgnttg6Q%3D%3D" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
+              <a href="https://www.instagram.com/eceasvce?igsh=eXB1aTR6eWZldGht" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
