@@ -26,7 +26,7 @@ const instagramFeed = [
     id: 2,
     image: "/coming soon.jpeg?height=600&width=600",
     caption:
-      "Meet our amazing sponsors for MAKE-A-THON 6.0! Thanks to @techcorp, @devstudio, and @aiinnovate for supporting the next generation of innovators. #MakeAThon6 #TechSponsors",
+      "Meet our amazing sponsors for MAKE-A-THON 6.0! #MakeAThon6 #TechSponsors",
     likes: 189,
     user: {
       name: "makeathon",
@@ -52,7 +52,7 @@ const instagramFeed = [
     id: 4,
     image: "/coming soon.jpeg?height=600&width=600",
     caption:
-      "New venue reveal! MAKE-A-THON 6.0 will be held at the stunning TechHub Convention Center. State-of-the-art facilities await you! #MakeAThon6 #TechHub #HackathonVenue",
+      "New venue reveal! MAKE-A-THON 6.0 will be held at the stunning MPH (Multi-Purpose Hall). State-of-the-art facilities await you! #MakeAThon6 #TechHub #HackathonVenue",
     likes: 276,
     user: {
       name: "makeathon",
