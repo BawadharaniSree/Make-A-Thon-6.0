@@ -19,7 +19,7 @@ export default function TimelineSection() {
   // Timeline events
   const timelineEvents = [
     {
-      date: "March 17, 2025",
+      date: "March 18, 2025",
       title: "Dates Release",
       description: "Mark your calendars for MAKE-A-THON 6.0 event dates!",
       icon: <Users className="h-6 w-6 text-purple-400" />,
