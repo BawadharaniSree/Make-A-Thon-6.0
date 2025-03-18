@@ -204,7 +204,7 @@ export default function FooterSection() {
           >
 
 <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent flex flex-wrap gap-3 justify-center items-center text-center">
-  <span></> Developed by</span>
+  <span>Developed by</span>
   
   <a
     href="https://www.linkedin.com/in/akshay-g-5a625a255"
@@ -242,7 +242,9 @@ export default function FooterSection() {
             <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
               {"<Thank_You_For_Visiting/>"}
             </span>
-
+            <br></br>
+            <br></br>
+            <br></br>
           </motion.div>
         </motion.div>
       </div>
