@@ -11,9 +11,9 @@ interface ScrollingAnnouncementProps {
 }
 
 export default function ScrollingAnnouncement({
-  eventDate = "March 15-17, 2025",
+  eventDate = "April 16-17, 2025",
   eventLocation = "Sri Venkateswara College of Engineering",
-  registrationDeadline = "March 1, 2025",
+  registrationDeadline = "April 4, 2025",
 }: ScrollingAnnouncementProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -72,7 +72,7 @@ export default function ScrollingAnnouncement({
           }}
           transition={{
             x: {
-              duration: 15,
+              duration: 50,
               repeat: Number.POSITIVE_INFINITY,
               ease: "linear",
               repeatType: "loop",
@@ -105,7 +105,7 @@ export default function ScrollingAnnouncement({
                         scale: [0.8, 1.2, 0.8],
                       }}
                       transition={{
-                        duration: 2,
+                        duration: 1,
                         repeat: Number.POSITIVE_INFINITY,
                         repeatType: "reverse",
                       }}
@@ -133,11 +133,11 @@ export default function ScrollingAnnouncement({
           x: [-100, containerRef.current ? containerRef.current.offsetWidth + 100 : 1500],
         }}
         transition={{
-          duration: 3,
+          duration: 1,
           repeat: Number.POSITIVE_INFINITY,
           repeatType: "loop",
           ease: "easeInOut",
-          delay: 1,
+          delay: 3.5,
         }}
       />
 
@@ -148,11 +148,11 @@ export default function ScrollingAnnouncement({
           x: [-100, containerRef.current ? containerRef.current.offsetWidth + 100 : 1500],
         }}
         transition={{
-          duration: 2.5,
+          duration: 1,
           repeat: Number.POSITIVE_INFINITY,
           repeatType: "loop",
           ease: "easeInOut",
-          delay: 0.5,
+          delay: 2,
         }}
       />
     </div>
