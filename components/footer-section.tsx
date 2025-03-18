@@ -230,7 +230,7 @@ export default function FooterSection() {
     rel="noopener noreferrer"
     className="underline hover:text-cyan-300"
   >
-    Bawadharani Sree R
+    Bawadharani Sree R.
   </a>
 </span>
 
