@@ -20,7 +20,7 @@ export default function FloatingDateBadge() {
             <Calendar className="h-4 w-4 text-cyan-400" />
             <span className="text-white font-bold text-sm">MAKE-A-THON 6.0</span>
           </div>
-          <div className="text-purple-300 text-xs font-medium mb-1">March 16-17, 2025</div>
+          <div className="text-purple-300 text-xs font-medium mb-1">April 16-17, 2025</div>
           <div className="flex items-center gap-1 text-gray-400 text-xs">
             <Clock className="h-3 w-3" />
             <span>stay tuned !!!</span>
