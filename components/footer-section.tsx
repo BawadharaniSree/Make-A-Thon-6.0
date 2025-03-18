@@ -242,9 +242,7 @@ export default function FooterSection() {
             <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
               {"<Thank_You_For_Visiting/>"}
             </span>
-<br></br>
-<br></br>
-<br></br>
+
           </motion.div>
         </motion.div>
       </div>
