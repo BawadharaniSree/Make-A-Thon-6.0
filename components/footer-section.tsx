@@ -212,7 +212,7 @@ export default function FooterSection() {
     rel="noopener noreferrer"
     className="underline hover:text-cyan-300"
   >
-    AKSHAY G,
+    Akshay G,
   </a>
 
   <a
@@ -221,7 +221,7 @@ export default function FooterSection() {
     rel="noopener noreferrer"
     className="underline hover:text-cyan-300"
   >
-    BALAJI S,
+    Balaji S,
   </a>
 
   <a
@@ -230,7 +230,7 @@ export default function FooterSection() {
     rel="noopener noreferrer"
     className="underline hover:text-cyan-300"
   >
-    BAWADHARANI SREE R.
+    Bawadharani Sree R
   </a>
 </span>
 
