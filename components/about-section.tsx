@@ -102,9 +102,9 @@ export default function AboutSection({ scrollYProgress }) {
           className="mb-8"
         >
           <ScrollingAnnouncement
-            eventDate="March 16-17, 2025"
+            eventDate="April 16-17, 2025"
             eventLocation="Sri Venkateswara College of Engineering"
-            registrationDeadline="stay tuned !!!"
+            registrationDeadline="April 4, 2025"
           />
         </motion.div>
   {/* floating-date - Added at the right end of the website*/}
@@ -116,9 +116,9 @@ export default function AboutSection({ scrollYProgress }) {
           className="mb-8"
         >
           <FloatingDate
-            eventDate="March 16-17, 2025"
+            eventDate="April 16-17, 2025"
             eventLocation="Sri Venkateswara College of Engineering"
-            registrationDeadline="stay tuned !!!"
+            registrationDeadline="April 4, 2025"
           />
         </motion.div>
 

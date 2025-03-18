@@ -202,6 +202,42 @@ export default function FooterSection() {
             viewport={{ once: true }}
             className="mt-8 text-lg font-mono"
           >
+
+<span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent flex flex-wrap gap-3 justify-center items-center text-center">
+  <span>Developed by</span>
+  
+  <a
+    href="https://www.linkedin.com/in/akshay-g-5a625a255"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-cyan-300"
+  >
+    AKSHAY G,
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/balaji-santhanam-7165102a5"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-cyan-300"
+  >
+    BALAJI S,
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/bawadharani-sree-ramakrishnan-97a638218"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-cyan-300"
+  >
+    BAWADHARANI SREE R.
+  </a>
+</span>
+
+
+<br></br>
+
+
             <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
               {"<Thank_You_For_Visiting/>"}
             </span>
