@@ -259,7 +259,7 @@ export default function AchievementsSection() {
           </motion.div>
         </motion.div>
 
-        {/* Testimonial */}
+        {/* Testimonial 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -273,6 +273,7 @@ export default function AchievementsSection() {
           </p>
           <p className="text-white font-medium text-sm sm:text-base">— Sarah Chen, Winner of MAKE-A-THON 5.0</p>
         </motion.div>
+        */}
 
         {/* Circuit lines */}
         <motion.div
