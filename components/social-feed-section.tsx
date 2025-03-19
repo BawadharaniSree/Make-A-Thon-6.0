@@ -11,42 +11,42 @@ import Image from "next/image"
 const instagramFeed = [
   {
     id: 1,
-    image: "/coming soon.jpeg?height=600&width=600",
+    image: "/psrelease.jpeg?height=600&width=600",
     caption:
-      "Excited to announce MAKE-A-THON 6.0! Mark your calendars for March 15-17, 2025. Registration opens next week! #MakeAThon6 #Hackathon #TechInnovation",
+      "🔴 MAKE-A-THON 6.0  Registrations Open! 🛠️🚀 The ultimate National-Level Hackathon is here! Ready to Innovate, Elevate & Collaborate? 💡💻 📢 Problem Statements Released! 🚀  Tag your team & start hacking! 💻💡#makeathon6.O #technicalhackathon #svce #ecefest #innovateelevate",
     likes: 245,
     user: {
-      name: "makeathon",
-      avatar: "/coming soon.jpeg?height=50&width=50",
+      name: "ECEA, IETE-SF, RAIC",
+      avatar: "/new ECEA logo.png?height=50&width=50",
     },
-    link: "https://www.instagram.com/p/example1/",
-    postedAt: "2 days ago",
+    link: "https://www.instagram.com/p/DHYYdsAP8Q-/?igsh=ODJobXU2bHdzcXVj",
+    postedAt: "Today",
   },
   {
     id: 2,
-    image: "/coming soon.jpeg?height=600&width=600",
+    image: "/date.jpeg?height=600&width=600",
     caption:
-      "Meet our amazing sponsors for MAKE-A-THON 6.0! #MakeAThon6 #TechSponsors",
+      "🛠️ BIG REVEAL !!! The National-Level MAKE-A-THON 6.0 - Innovate, Elevate & Collaborate is happening on 16th & 17th April 2025 at Sri Venkateswara College of Engineering 🚀Gear up for an electrifying experience of innovation, technology, and problem-solving !!!Stay tuned for registration details and exciting updates. #makeathon6.o #techshowcase #hackathon #innovation #svce",
     likes: 189,
     user: {
-      name: "makeathon",
-      avatar: "/coming soon.jpeg?height=50&width=50",
+      name: "ECEA, IETE-SF, RAIC",
+      avatar: "/new ECEA logo.png?height=50&width=50",
     },
-    link: "https://www.instagram.com/p/example2/",
-    postedAt: "5 days ago",
+    link: "https://www.instagram.com/p/DHV6Zt1S_FZ/?igsh=MTR5Nmd1ZmZhZ29ncw==",
+    postedAt: "1 days ago",
   },
   {
     id: 3,
-    image: "/coming soon.jpeg?height=600&width=600",
+    image: "/weblive.jpeg?height=600&width=600",
     caption:
-      "Throwback to last year's winning team! Their AI-powered healthcare solution is now being developed with @healthtech. Could your idea be next? #MakeAThon6 #Innovation #AIForGood",
+      "🚀 MAKE-A-THON 6.0 – Innovate. Elevate. Collaborate. 🚀⚡24-Hour National-Level Hackathon ⚡🔥 WE ARE LIVE! 🔥The wait is over! Our official website is now LIVE - check it out and gear up for an electrifying hackathon experience. #makeathon6.0 #hackthefuture #codecreateconquer #innovation #svce #hackathons ",
     likes: 312,
     user: {
-      name: "makeathon",
-      avatar: "/coming soon.jpeg?height=50&width=50",
+      name: "ECEA, IETE-SF, RAIC",
+      avatar: "/new ECEA logo.png?height=50&width=50",
     },
-    link: "https://www.instagram.com/p/example3/",
-    postedAt: "1 week ago",
+    link: "https://www.instagram.com/p/DHQqFefPtTT/?igsh=MWYxOGg4ZmNrZHE1Mw==",
+    postedAt: "3 days ago",
   },
   {
     id: 4,
@@ -63,53 +63,65 @@ const instagramFeed = [
   },
 ]
 
-const chatFeed = [
-  {
-    id: 1,
-    user: {
-      name: "Moderator",
-      role: "Admin",
-      avatar: "/coming soon.jpeg?height=50&width=50",
-    },
-    content:
-      "Welcome to the official Make-a-Thon 6.0 Chat! Please check the #rules channel for guidelines and #resources for helpful links.",
-    time: "15m ago",
-    channel: "#general",
-  },
-  {
-    id: 2,
-    user: {
-      name: "DevNinja",
-      role: "Participant",
-      avatar: "/coming soon.jpeg?height=50&width=50",
-    },
-    content: "Anyone else having trouble with the WiFi in the east wing? Signal keeps dropping.",
-    time: "22m ago",
-    channel: "#tech-support",
-  },
-  {
-    id: 3,
-    user: {
-      name: "AIExpert",
-      role: "Mentor",
-      avatar: "/coming soon.jpeg?height=50&width=50",
-    },
-    content: "I'll be hosting a workshop on GPT integration at 6 PM in Room 204. Bring your laptops!",
-    time: "30m ago",
-    channel: "#announcements",
-  },
-  {
-    id: 4,
-    user: {
-      name: "CoffeeCode",
-      role: "Participant",
-      avatar: "/coming soon.jpeg?height=50&width=50",
-    },
-    content: "Our team is looking for someone with blockchain experience. We're at table 17 if anyone wants to join!",
-    time: "45m ago",
-    channel: "#team-building",
-  },
-]
+   const chatFeed = [
+      {
+        id: 1,
+        user: {
+          name: "Organizer",
+          role: "Admin",
+          avatar: "/coming-soon.jpeg?height=50&width=50",
+        },
+        content:
+          "🚀 Welcome to Make-a-Thon 6.0! Stay tuned for event updates and announcements. Check the #rules channel for guidelines.",
+        time: "Just now",
+        channel: "#general",
+      },
+      {
+        id: 2,
+        user: {
+          name: "HackBuddy",
+          role: "Participant",
+          avatar: "/coming-soon.jpeg?height=50&width=50",
+        },
+        content: "Hey everyone! Excited to be part of Make-a-Thon 6.0. Let’s build something amazing! 💪",
+        time: "5m ago",
+        channel: "#introductions",
+      },
+      {
+        id: 3,
+        user: {
+          name: "TechMentor",
+          role: "Mentor",
+          avatar: "/coming-soon.jpeg?height=50&width=50",
+        },
+        content: "Need help with your project? Drop your queries in #tech-support — mentors are here to help! ⚙️",
+        time: "10m ago",
+        channel: "#tech-support",
+      },
+      {
+        id: 4,
+        user: {
+          name: "CodeWarrior",
+          role: "Participant",
+          avatar: "/coming-soon.jpeg?height=50&width=50",
+        },
+        content: "Anyone working with ESP32 and sensors? Let’s team up. 🔧 #hardware-hacks",
+        time: "20m ago",
+        channel: "#team-building",
+      },
+      {
+        id: 5,
+        user: {
+          name: "EventBot",
+          role: "Admin",
+          avatar: "/coming-soon.jpeg?height=50&width=50",
+        },
+        content: "Reminder: Project submission deadline is tomorrow at 6 PM. Don’t forget to submit on the portal! 📅",
+        time: "30m ago",
+        channel: "#announcements",
+      },
+    ]
+    
 
 // Terminal component for live updates
 function Terminal({ messages }) {
@@ -347,8 +359,10 @@ export default function SocialFeedSection() {
   const terminalMessages = [
     "Initializing Make-a-Thon 6.0 live feed...",
     "The Makeathon website is now live!",
-    "Schedule and dates will be announced soon",
-    "Problem statement dropping in 2 days.",
+    "The Dates are released April 16th and 17th 2025",
+    "Phase 1 Problem statement are live now -Go check them out",
+    "Registrations are open now",
+    "Stay tuned Phase 2 Problem statements ",
   ]
 
   return (

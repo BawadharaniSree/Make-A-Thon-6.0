@@ -1,6 +1,6 @@
 "use client"
 
-import { useRef, useState } from "react"
+import { useRef, useState, useEffect } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { Trophy, ChevronLeft, ChevronRight, Users, Code, Award, Lightbulb } from "lucide-react"
 import Image from "next/image"
@@ -72,7 +72,7 @@ export default function AchievementsSection() {
     {
       icon: <Lightbulb className="h-6 w-6 sm:h-8 sm:w-8 text-purple-400" />,
       value: "10+",
-      label: "internship",
+      label: "Internships",
     },
   ]
 
@@ -108,6 +108,14 @@ export default function AchievementsSection() {
   const prevImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? galleryImages.length - 1 : prevIndex - 1))
   }
+
+  // Preload all images
+  useEffect(() => {
+    galleryImages.forEach((image) => {
+      const img = new window.Image()
+      img.src = image.src
+    })
+  }, [])
 
   return (
     <section id="achievements" ref={ref} className="relative py-16 md:py-20 overflow-hidden">
@@ -152,6 +160,8 @@ export default function AchievementsSection() {
                 src={galleryImages[currentIndex].src || "/placeholder.svg"}
                 alt={galleryImages[currentIndex].alt}
                 fill
+                priority={currentIndex === 0}
+                loading={currentIndex === 0 ? "eager" : "lazy"}
                 className="object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-black/70 backdrop-blur-sm p-2 sm:p-3 text-white text-center text-sm sm:text-base">
@@ -249,7 +259,7 @@ export default function AchievementsSection() {
           </motion.div>
         </motion.div>
 
-        {/* Testimonial 
+        {/* Testimonial */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -263,7 +273,6 @@ export default function AchievementsSection() {
           </p>
           <p className="text-white font-medium text-sm sm:text-base">— Sarah Chen, Winner of MAKE-A-THON 5.0</p>
         </motion.div>
-        */}
 
         {/* Circuit lines */}
         <motion.div
@@ -277,4 +286,3 @@ export default function AchievementsSection() {
     </section>
   )
 }
-
