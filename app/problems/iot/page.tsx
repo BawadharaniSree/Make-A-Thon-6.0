@@ -290,11 +290,13 @@ export default function IoTProblemsPage() {
                     ))}
                   </div>
 
-                  {problem.sdg && (
-                    <div className="mt-3 pt-3 border-t border-cyan-500/20">
-                      <span className="text-xs text-cyan-300">{problem.sdg.split(":")[1]?.trim()}</span>
-                    </div>
-                  )}
+                  <div className="mt-3 pt-3 border-t border-cyan-500/20">
+                    {problem.sdg && problem.sdg.startsWith("SDG") ? (
+                      <span className="text-xs text-cyan-300">{problem.sdg}</span>
+                    ) : (
+                      <span className="text-xs text-gray-400">Uncategorized</span>
+                    )}
+                  </div>
                 </motion.div>
               ))}
             </div>
@@ -378,11 +380,13 @@ export default function IoTProblemsPage() {
                       ))}
                     </div>
 
-                    {problem.sdg && (
-                      <div className="mt-3 pt-3 border-t border-cyan-500/20">
-                        <span className="text-xs text-cyan-300">{problem.sdg.split(":")[1]?.trim()}</span>
-                      </div>
-                    )}
+                    <div className="mt-3 pt-3 border-t border-cyan-500/20">
+                      {problem.sdg && problem.sdg.startsWith("SDG") ? (
+                        <span className="text-xs text-cyan-300">{problem.sdg}</span>
+                      ) : (
+                        <span className="text-xs text-gray-400">Uncategorized</span>
+                      )}
+                    </div>
                   </motion.div>
                 ))}
               </div>
