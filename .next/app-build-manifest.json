@@ -10,26 +10,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-    ],
-    "/problems/misc/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/problems/misc/page.js"
-    ],
-    "/problems/image-processing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/problems/image-processing/page.js"
-    ],
-    "/problems/cybersecurity/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/problems/cybersecurity/page.js"
-    ],
-    "/problems/ai/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/problems/ai/page.js"
     ]
   }
 }

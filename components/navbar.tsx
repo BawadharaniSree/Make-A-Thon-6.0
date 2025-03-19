@@ -89,7 +89,7 @@ export default function Navbar() {
                   {item.name}
                 </a>
               ))}
-              <Link href="/problems">
+              <Link href="#theme">
                 <Button className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-none w-full mt-4">
                   Problem Statements
                 </Button>
