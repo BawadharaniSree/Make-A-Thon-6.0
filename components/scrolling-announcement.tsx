@@ -8,12 +8,15 @@ interface ScrollingAnnouncementProps {
   eventDate?: string
   eventLocation?: string
   registrationDeadline?: string
+  problemStatement?: string
 }
 
 export default function ScrollingAnnouncement({
   eventDate = "April 16-17, 2025",
   eventLocation = "Sri Venkateswara College of Engineering",
   registrationDeadline = "April 4, 2025",
+  problemStatement = "Phase 1 Problem Statement Released",
+  stayTuned = "Stay Tuned for Phase 2 Problem Statement",
 }: ScrollingAnnouncementProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -32,6 +35,16 @@ export default function ScrollingAnnouncement({
     {
       icon: <Zap className="h-5 w-5 text-cyan-400" />,
       text: `VENUE: ${eventLocation}`,
+      highlight: false,
+    },
+    {
+      icon: <Zap className="h-5 w-5 text-cyan-400" />,
+      text: `PROBLEM STATEMENT: ${problemStatement}`,
+      highlight: false,
+    },
+    {
+      icon: <Zap className="h-5 w-5 text-cyan-400" />,
+      text: `${stayTuned}`,
       highlight: false,
     },
   ]

@@ -105,6 +105,8 @@ export default function AboutSection({ scrollYProgress }) {
             eventDate="April 16-17, 2025"
             eventLocation="Sri Venkateswara College of Engineering"
             registrationDeadline="April 4, 2025"
+            problemStatement = "Phase 1 Problem Statement Released"
+            stayTuned = "Stay Tuned for Phase 2 Problem Statement"
           />
         </motion.div>
   {/* floating-date - Added at the right end of the website*/}
