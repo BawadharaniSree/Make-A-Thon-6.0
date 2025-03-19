@@ -53,6 +53,16 @@ export default function FooterSection() {
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
+            <br></br>
+{/* Top Make a Thon 6.0 - Left Aligned */}
+<div className="w-fit rounded-lg bg-gradient-to-r from-cyan-400 to-purple-500 p-1">
+  <img
+    src="/new MAKEATHON LOGO.png"
+    alt="Make A Thon 6.0"
+    className="rounded-lg border-4 border-white"
+  />
+</div>
+
           </div>
 
           {/* Quick links */}
