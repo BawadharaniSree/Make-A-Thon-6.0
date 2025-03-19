@@ -327,8 +327,8 @@ export default function HeroSection() {
             variant="outline"
             className="border-cyan-500 text-cyan-400 hover:bg-cyan-950 px-8 py-6 text-lg shadow-lg shadow-cyan-500/20"
           >
-            <a href="#timeline" className="cursor-pointer">
-            View Schedule
+            <a href="https://forms.gle/oW4ycK2F98gr4dVK6" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+            Register Now
             </a>
           </Button>
         </motion.div>
