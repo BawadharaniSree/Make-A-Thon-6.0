@@ -36,15 +36,14 @@ export default function CybersecurityPage() {
         },
         {
       id: 49,
-      title: "Secure Authentication System for IoT Devices",
+      title: "Develop an AI-Powered Fraud Detection and Risk Assessment System",
       description:
-        "Develop a secure authentication system for IoT devices that protects against unauthorized access and cyber threats.",
-      difficulty: "Hard",
-      tags: ["IoT Security", "Authentication", "Cyber Defense"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+        "An AI-powered system that detects fraudulent activities and assesses risks in real-time. Using advanced machine learning algorithms, FraudGuard analyzes transaction patterns, user behavior, and historical data to identify potential threats, providing instant alerts and insights to prevent financial fraud and minimize risks.",
+        difficulty: "Hard",
+      tags: ["Fraud Detection", "Risk Management", "Cyber Defense"],
+      sdg: "SDG 16: Peace, Justice, and Strong Institutions",
       fullDescription:
-        "IoT devices often lack robust security measures, making them vulnerable to unauthorized access, data breaches, and exploitation in larger cyberattacks. Traditional authentication methods are either too resource-intensive for constrained IoT devices or too simplistic to provide adequate protection. There is a need for a secure, lightweight authentication system specifically designed for IoT ecosystems. This solution should implement multi-factor authentication, secure key management, and anomaly detection while being optimized for devices with limited computational resources. By enhancing IoT security without compromising performance, this system will protect sensitive data, prevent device hijacking, and strengthen the overall security posture of interconnected systems.",
-    },
+        "Develop a financial software solution that leverages AI and machine learning to analyze real-time transactions, detect fraudulent activities, and assess risk levels. The system should integrate with banking and fintech platforms, offering automated alerts, anomaly detection, and predictive analytics to enhance security and reduce financial fraud."   },
         {
       id: 50,
       title: "Secure Authentication System for IoT Devices",
