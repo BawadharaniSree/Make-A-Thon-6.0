@@ -14,13 +14,13 @@ export default function ImageProcessingPage() {
   const softwareProblems = [
     {
       id: 51,
-      title: "Advanced Image Enhancement for Medical Diagnostics",
-      description: "Develop an image processing system that enhances medical images for improved diagnostic accuracy.",
+      title: "Real-Time Road Condition Monitoring System",
+      description: "Develop a AI - Powered Real-Time Road Condition Monitoring System",
       difficulty: "Hard",
-      tags: ["Medical Imaging", "Computer Vision", "Healthcare"],
-      sdg: "SDG 3: Good Health and Well-being",
+      tags: ["Medical Imaging", "Computer Vision"],
+      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
       fullDescription:
-        "Medical imaging plays a crucial role in diagnosis, but image quality can be compromised by various factors such as noise, poor contrast, or artifacts. These issues can lead to misdiagnosis, delayed treatment, or unnecessary follow-up procedures. Traditional image enhancement techniques often struggle with the complexity and diversity of medical images across different modalities (X-ray, MRI, CT, ultrasound). There is a need for an advanced image processing system specifically designed for medical diagnostics that can intelligently enhance images while preserving critical diagnostic information. This solution should improve clarity, contrast, and detail visibility in medical images, enabling healthcare professionals to make more accurate diagnoses. By leveraging computer vision and machine learning techniques, the system should adapt to different imaging modalities and specific diagnostic requirements.",
+        "Design a software solution that utilizes computer vision and AI models to analyze live traffic camera feeds or smartphone sensors to detect road conditions such as potholes, cracks, and waterlogging. The system should generate real-time alerts and provide local municipalities with data - driven insights for timely road maintenance."
     },
   ]
 
