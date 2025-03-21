@@ -11,81 +11,16 @@ export default function MechanicalPage() {
   const hardwareProblems = [
     {
       id: 18,
-      title: "Automated Waste Segregation System",
+      title: "Advanced Flushing System",
       description:
-        "Design and develop an automated waste segregation system that can efficiently separate different types of waste materials.",
+        "Development of innovative design for flushing systems in western toilet sheets which can be used for deployment in public toilets.",
       difficulty: "Medium",
-      tags: ["Waste Management", "Automation", "Sustainability"],
-      sdg: "SDG 11: Sustainable Cities and Communities",
+      tags: ["Water Waste Management", "Automation", "Sustainability"],
+      sdg: "Uncategorized",
       fullDescription:
-        "The goal is to design and develop an automated waste segregation system that can efficiently separate different types of waste materials such as plastic, metal, glass, paper, and organic waste. The system should use sensors, computer vision, or other technologies to identify and sort waste items accurately. It should be able to handle a variety of waste sizes and shapes and operate continuously with minimal human intervention. The solution should be cost-effective, energy-efficient, and suitable for implementation in municipal waste management facilities or community waste collection centers.",
+        "The objective is to develop an innovative and efficient flushing system specifically designed for western toilet seats used in public toilets. The system should focus on water conservation, hygiene, and ease of maintenance. It should ensure effective cleaning with minimal water usage and prevent clogging or leakage. The design must be durable, costeffective, and capable of withstanding frequent use in high-traffic public areas. Additionally, features like touchless operation, automatic flushing, and self-cleaning mechanisms can improve user hygiene and reduce the need for manual cleaning."
     },
-    {
-      id: 19,
-      title: "Portable Water Purification System",
-      description:
-        "Create a portable water purification system that can effectively remove contaminants from various water sources.",
-      difficulty: "Medium",
-      tags: ["Water Purification", "Portable Systems", "Environmental Health"],
-      sdg: "SDG 6: Clean Water and Sanitation",
-      fullDescription:
-        "The objective is to create a portable water purification system that can effectively remove contaminants from various water sources, making it safe for drinking and other uses. The system should be lightweight, compact, and easy to transport, making it suitable for use in emergency situations, remote areas, or during outdoor activities. It should be capable of removing bacteria, viruses, parasites, heavy metals, and other harmful substances from water. The solution should be user-friendly, requiring minimal maintenance and technical knowledge to operate. Additionally, it should be energy-efficient, possibly utilizing renewable energy sources like solar power, and have a reasonable cost to ensure accessibility for a wide range of users.",
-    },
-    {
-      id: 21,
-      title: "Automated Vertical Farming System",
-      description:
-        "Design and develop an automated vertical farming system that optimizes space, water usage, and energy consumption.",
-      difficulty: "Hard",
-      tags: ["Agriculture", "Automation", "Sustainability"],
-      sdg: "SDG 2: Zero Hunger",
-      fullDescription:
-        "The Automated Vertical Farming System aims to revolutionize urban agriculture by maximizing crop yield in limited spaces while minimizing resource consumption. This system should integrate IoT sensors, automated irrigation, and climate control to create optimal growing conditions for various crops. Using vertical stacking and efficient lighting, it should enable year-round cultivation regardless of external weather conditions. The solution should include features like nutrient monitoring, pest detection, and harvest prediction to ensure consistent, high-quality produce. By reducing water usage by at least 90% compared to traditional farming and eliminating the need for pesticides, this system will promote sustainable urban food production. The design should be modular, scalable, and adaptable to different urban environments, from residential buildings to commercial spaces.",
-    },
-    {
-      id: 22,
-      title: "Smart Irrigation System for Precision Agriculture",
-      description:
-        "Develop a smart irrigation system that uses sensors and weather data to optimize water usage in agricultural fields.",
-      difficulty: "Medium",
-      tags: ["Agriculture", "Water Conservation", "IoT"],
-      sdg: "SDG 6: Clean Water and Sanitation",
-      fullDescription:
-        "The Smart Irrigation System for Precision Agriculture aims to revolutionize water management in farming by delivering the right amount of water to crops at the right time. Using soil moisture sensors, weather forecasting data, and crop-specific algorithms, the system will automatically adjust irrigation schedules and water distribution. This precision approach will reduce water waste, prevent over or under-watering, and optimize crop growth conditions. The solution should include features like remote monitoring and control via a mobile app, automated alerts for system issues, and data analytics for long-term irrigation planning. By potentially reducing water usage by up to 50% compared to conventional irrigation methods, this system will contribute to sustainable agriculture practices, especially in water-scarce regions. The design should be adaptable to various farm sizes, crop types, and existing irrigation infrastructure, making it accessible to both small-scale and commercial farmers.",
-    },
-    {
-      id: 23,
-      title: "Portable Solar-Powered Refrigeration System",
-      description:
-        "Design a portable refrigeration system powered by solar energy for storing vaccines, medicines, or food in remote areas.",
-      difficulty: "Hard",
-      tags: ["Renewable Energy", "Refrigeration", "Healthcare"],
-      sdg: "SDG 7: Affordable and Clean Energy",
-      fullDescription:
-        "The Portable Solar-Powered Refrigeration System aims to address the critical need for reliable cold storage in areas with limited or no access to electricity. This system will harness solar energy to power a compact, efficient refrigeration unit capable of maintaining stable low temperatures required for preserving vaccines, medicines, or perishable food items. The design should incorporate high-efficiency solar panels, advanced battery storage for overnight operation, and a well-insulated refrigeration chamber with precise temperature control. The system should be durable, weather-resistant, and easily transportable, making it suitable for use in remote healthcare facilities, disaster relief operations, or rural communities. Features should include temperature monitoring, low-power alerts, and potentially different temperature zones for various storage needs. By providing a sustainable and reliable cold chain solution, this system will help reduce vaccine wastage, extend the shelf life of medications, and decrease food spoilage in underserved regions.",
-    },
-    {
-      id: 37,
-      title: "Automated Pothole Detection and Repair System",
-      description:
-        "Develop a system that can automatically detect and repair potholes on roads using advanced sensing and material application technologies.",
-      difficulty: "Hard",
-      tags: ["Infrastructure", "Automation", "Transportation"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
-      fullDescription:
-        "Road infrastructure deterioration, particularly potholes, poses significant safety hazards, vehicle damage, and traffic disruptions. Traditional repair methods are labor-intensive, time-consuming, and often result in temporary fixes. An automated pothole detection and repair system can revolutionize road maintenance by combining advanced sensing technologies with automated repair mechanisms. The system should use sensors, computer vision, or LiDAR to identify and assess potholes, then deploy a repair mechanism that can fill and seal the damaged area with appropriate materials. This solution will enhance road safety, reduce maintenance costs, and minimize traffic disruptions through faster, more efficient repairs.",
-    },
-    {
-      id: 41,
-      title: "Automated Vertical Farming System (Duplicate)",
-      description:
-        "Design and develop an automated vertical farming system that optimizes space, water usage, and energy consumption.",
-      difficulty: "Hard",
-      tags: ["Agriculture", "Automation", "Sustainability"],
-      sdg: "SDG 2: Zero Hunger",
-      fullDescription:
-        "Design and develop an automated vertical farming system that optimizes space, water usage, and energy consumption. The system should use IoT sensors to monitor plant health, automate irrigation, and adjust lighting based on plant needs. It should be modular, scalable, and suitable for urban environments with limited space. The solution can include features like nutrient monitoring, pest detection, and harvest prediction.",
-    },
+   
   ]
 
   // Software problems
