@@ -42,7 +42,7 @@ export default function TimelineSection() {
       date: "April 9, 2025",
       //date: "To Be Announced",
       title: "Shortlisted Teams Announcement",
-      description: "The results are out! Check out the shortlisted teams for MAKE-A-THON 6.0. Congratulations to all the selected teams!",
+      description: "Check out the shortlisted teams for MAKE-A-THON 6.0. Congratulations to all the selected teams!",
       icon: <Award className="h-6 w-6 text-purple-400" />,
     },
     {
