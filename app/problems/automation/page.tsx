@@ -14,14 +14,14 @@ export default function AutomationPage() {
   const softwareProblems = [
     {
       id: 48,
-      title: "Automated Document Processing System",
+      title: "Automated Rule Engine Processing System",
       description:
-        "Develop an AI-powered system that can automatically extract, classify, and process information from various document types.",
+        "Create a rule engine that can evaluate multiple rules against a list of objects, ensuring flexibility, efficiency, and accuracy in processing dynamic rules and inputs.",
       difficulty: "Medium",
       tags: ["Document Processing", "OCR", "Workflow Automation"],
       sdg: "SDG 9: Industry, Innovation, and Infrastructure",
       fullDescription:
-        "Manual document processing is time-consuming, error-prone, and inefficient, leading to operational bottlenecks and increased costs for organizations handling large volumes of documents. Traditional OCR solutions often struggle with complex layouts, handwritten text, and varying document formats, requiring significant human intervention. There is a need for an advanced automated document processing system that leverages AI, machine learning, and computer vision to intelligently extract, classify, and process information from diverse document types. This solution should accurately identify document types, extract relevant data fields, validate information, and integrate with existing business systems. By automating document workflows, this system will enhance operational efficiency, reduce processing time, minimize errors, and allow staff to focus on higher-value tasks.",
+        "The rule engine should be capable of handling a variety of rules that can change over time, without requiring significant code modifications. It must efficiently process multiple objects, evaluating them against the defined rules to produce accurate results based on the given conditions.The system should support easy addition, removal, or modification of rules, allowing users to adapt to new requirements quickly. Additionally, it should be optimized for performance, ensuring scalability when dealing with large datasets or complex rule sets. The solution aims to streamline decision-making processes by providing a flexible and reliable mechanism for rule evaluation." 
     },
   ]
 
