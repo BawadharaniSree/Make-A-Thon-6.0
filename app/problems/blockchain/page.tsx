@@ -24,7 +24,7 @@ export default function BlockchainPage() {
         "Create a platform that enables communities to share surplus renewable energy using blockchain technology for secure and transparent transactions. The platform should allow users to trade excess energy generated from solar panels or wind turbines directly with others in the community. Smart contracts should automate the transaction process, ensuring real-time tracking of energy generation, consumption, and pricing. The solution can be developed as a mobile and web application with secure wallets and real-time data visualization.",
     },
       {
-      id: 100,
+      id: 50,
       title: "Accessible Voting Platform with Blockchain Integration",
       description:
         "Traditional voting systems can be vulnerable to fraud, errors, and inconvenience, particularly for geographically dispersed voters.So Develop an Accessible Voting Platform with Blockchain Integration",
