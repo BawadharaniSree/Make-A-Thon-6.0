@@ -141,17 +141,6 @@ export default function IoTProblemsPage() {
       fullDescription:
         "In industrial manufacturing, undetected defects, unexpected equipment failures, and inefficiencies in production processes contribute to significant financial losses and reduced productivity. Traditional quality control methods and maintenance schedules often fail to prevent machine breakdowns or detect defects early enough to avoid costly rework. An AI-powered IoT system can integrate machine vision, real-time sensor analytics, and predictive maintenance algorithms to monitor production lines continuously. By identifying anomalies, predicting failures before they occur, and optimizing machine performance, this system can enhance operational efficiency, reduce downtime, and minimize waste in smart factories.",
     },
-    {
-      id: 46,
-      title: "IoT-Based System for Early Detection of Wildfires (Duplicate)",
-      description:
-        "Develop an IoT-based system that leverages sensors to continuously monitor environmental conditions and detect early signs of wildfires.",
-      difficulty: "Hard",
-      tags: ["Environmental Monitoring", "Disaster Prevention", "Early Warning"],
-      sdg: "SDG 11: Sustainable Cities and Communities",
-      fullDescription:
-        "Wildfires pose a severe risk to the environment, property, and human lives, often spreading rapidly before effective containment measures can be deployed. Traditional wildfire detection methods rely on manual observations, satellite imagery, or delayed sensor data, which may not provide real-time insights. An IoT-based early detection system can leverage a network of sensors to continuously monitor temperature, humidity, wind speed, and smoke levels. Using AI-driven predictive modeling, the system can detect early warning signs and provide real-time alerts to emergency responders, enabling faster intervention and reducing the devastating impact of wildfires.",
-    },
   ]
 
   // Software problems
