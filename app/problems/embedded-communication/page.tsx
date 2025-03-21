@@ -10,15 +10,15 @@ export default function EmbeddedCommunicationPage() {
   // Hardware problems
   const hardwareProblems = [
     {
-      id: 50,
-      title: "Low-Power Wide-Area Network for Rural IoT Applications",
+      id: 33,
+      title: "Extending the Range and Scalability of Zigbee Networks",
       description:
-        "Develop a low-power, long-range communication network solution for IoT devices in rural and remote areas.",
-      difficulty: "Hard",
-      tags: ["LPWAN", "Rural Connectivity", "IoT Communication"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+        "Develop methods and technologies to extend the reach of Zigbee networks for larger homes and future device expansion.",
+      difficulty: "Medium",
+      tags: ["IoT", "Wireless Communication", "Home Automation"],
+      sdg: "SDG 4: Quality Education",
       fullDescription:
-        "Rural and remote areas often lack reliable communication infrastructure, limiting the deployment of IoT solutions for agriculture, environmental monitoring, and community services. Traditional cellular networks have limited coverage in these regions, while conventional IoT communication protocols may not provide sufficient range or power efficiency for widespread deployment. There is a need for a specialized Low-Power Wide-Area Network (LPWAN) solution that can enable IoT connectivity across vast rural landscapes with minimal power consumption. This system should support long-range transmission (10+ km), operate for years on battery power, and provide reliable data transfer even in challenging environmental conditions. By extending IoT capabilities to underserved areas, this solution will enable smart agriculture, environmental monitoring, and improved public services in rural communities.",
+        "Zigbee is a popular wireless communication protocol for IoT devices due to its low power consumption and reliable performance in short-range communications. However, it has a limited range compared to Wi-Fi, which may pose challenges when used in larger homes or environments requiring coverage over extended areas. To address this limitation and ensure scalability for future device additions, there is a need to develop methods and technologies that can extend the reach of Zigbee networks. This could involve implementing network topology enhancements, such as mesh networking, deploying Zigbee repeaters, or integrating Zigbee with other communication protocols. The solution should ensure that the Zigbee network can maintain its low power consumption while supporting an increasing number of devices and covering larger areas without sacrificing performance.",
     },
   ]
 
