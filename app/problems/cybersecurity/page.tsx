@@ -46,15 +46,15 @@ export default function CybersecurityPage() {
         "Develop a financial software solution that leverages AI and machine learning to analyze real-time transactions, detect fraudulent activities, and assess risk levels. The system should integrate with banking and fintech platforms, offering automated alerts, anomaly detection, and predictive analytics to enhance security and reduce financial fraud."   },
         {
       id: 50,
-      title: "Secure Authentication System for IoT Devices",
+      title: "Incorporate Cybersecurity Awareness through Gamification",
       description:
-        "Develop a secure authentication system for IoT devices that protects against unauthorized access and cyber threats.",
-      difficulty: "Hard",
-      tags: ["IoT Security", "Authentication", "Cyber Defense"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+        "An engaging educational game that teaches cybersecurity essentials through interactive challenges. Players face real-world scenarios to master password management, detect phishing attempts, and practice safe browsing. With feedback, tips, and progress tracking, CyberGuardians motivates users to improve their skills, compete on leaderboards, and earn rewards while staying safe online.",
+          difficulty: "Hard",
+      tags: ["Education", "Gamefication", "Cyber Awareness],
+      sdg: "SDG 4: Quality Education",
       fullDescription:
-        "IoT devices often lack robust security measures, making them vulnerable to unauthorized access, data breaches, and exploitation in larger cyberattacks. Traditional authentication methods are either too resource-intensive for constrained IoT devices or too simplistic to provide adequate protection. There is a need for a secure, lightweight authentication system specifically designed for IoT ecosystems. This solution should implement multi-factor authentication, secure key management, and anomaly detection while being optimized for devices with limited computational resources. By enhancing IoT security without compromising performance, this system will protect sensitive data, prevent device hijacking, and strengthen the overall security posture of interconnected systems.",
-    },
+        "Design an educational game that teaches users about cybersecurity practices like password management, phishing detection, and safe browsing through interactive challenges and levels. The game should simulate real-world scenarios to help users identify threats, create strong passwords, and recognize suspicious activities. It should provide feedback and tips to reinforce learning and track user progress to encourage continuous improvement. The solution can be developed as a mobile or web-based game with leaderboards and rewards to enhance user engagement"
+        },
   ]
 
   return (
