@@ -13,12 +13,12 @@ export default function MiscPage() {
       id: 4,
       title: "Combat Social Isolation and Promote Mental Well-being",
       description:
-        "Design products or platforms that combat social isolation and promote mental well-being through virtual companionship tools.",
+        "Design products or platforms that combat social isolation and promote mental well-being, such as virtual companionship tools, community engagement platforms, or cognitive stimulation devices.",
       difficulty: "Medium",
       tags: ["Mental Health", "Social Connection", "Assistive Technology"],
       sdg: "SDG 3: Good Health and Well-being",
       fullDescription:
-        "Social isolation and loneliness are growing concerns, negatively impacting mental well-being and overall quality of life. Many individuals, including the elderly, remote workers, and people with disabilities, struggle to maintain meaningful social connections due to physical distance, limited mobility, or lack of community engagement opportunities. Traditional solutions often fail to provide personalized, interactive, and easily accessible support. To address these challenges, innovative products or platforms are needed to foster social interaction, provide virtual companionship, and enhance mental stimulation. By leveraging AI, digital communities, and interactive tools, these solutions can combat loneliness, improve emotional well-being, and create a sense of belonging.",
+        "Social isolation and loneliness are growing concerns, negatively impacting mental wellbeing and overall quality of life. Many individuals, including the elderly, remote workers, and people with disabilities, struggle to maintain meaningful social connections due to physical distance, limited mobility, or lack of community engagement opportunities. Traditional solutions often fail to provide personalized, interactive, and easily accessible support. To address these challenges, innovative products or platforms are needed to foster social interaction, provide virtual companionship, and enhance mental stimulation. By leveraging AI, digital communities, and interactive tools, these solutions can combat loneliness, improve emotional well-being, and create a sense of belonging."
     },
   ]
 
