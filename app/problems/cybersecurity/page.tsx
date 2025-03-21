@@ -50,7 +50,7 @@ export default function CybersecurityPage() {
       description:
         "An engaging educational game that teaches cybersecurity essentials through interactive challenges. Players face real-world scenarios to master password management, detect phishing attempts, and practice safe browsing. With feedback, tips, and progress tracking, CyberGuardians motivates users to improve their skills, compete on leaderboards, and earn rewards while staying safe online.",
           difficulty: "Hard",
-      tags: ["Education", "Gamefication", "Cyber Awareness],
+      tags: ["Education", "Gamefication", "Cyber Awareness"],
       sdg: "SDG 4: Quality Education",
       fullDescription:
         "Design an educational game that teaches users about cybersecurity practices like password management, phishing detection, and safe browsing through interactive challenges and levels. The game should simulate real-world scenarios to help users identify threats, create strong passwords, and recognize suspicious activities. It should provide feedback and tips to reinforce learning and track user progress to encourage continuous improvement. The solution can be developed as a mobile or web-based game with leaderboards and rewards to enhance user engagement"
