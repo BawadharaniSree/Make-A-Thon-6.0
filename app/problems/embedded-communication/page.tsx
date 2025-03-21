@@ -10,7 +10,7 @@ export default function EmbeddedCommunicationPage() {
   // Hardware problems
   const hardwareProblems = [
     {
-      id: 33,
+      id: 50, 
       title: "Extending the Range and Scalability of Zigbee Networks",
       description:
         "Develop methods and technologies to extend the reach of Zigbee networks for larger homes and future device expansion.",
