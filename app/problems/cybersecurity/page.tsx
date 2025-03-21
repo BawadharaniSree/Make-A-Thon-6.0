@@ -25,15 +25,15 @@ export default function CybersecurityPage() {
     },
         {
       id: 48,
-      title: "Secure Authentication System for IoT Devices",
+      title: "Cybersecurity Awareness Gamification",
       description:
-        "Develop a secure authentication system for IoT devices that protects against unauthorized access and cyber threats.",
-      difficulty: "Hard",
-      tags: ["IoT Security", "Authentication", "Cyber Defense"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+        "A fun, interactive game that teaches essential cybersecurity practices through real-world simulations. Players navigate challenges like creating strong passwords, detecting phishing attempts, and practicing safe browsing. With levels, feedback, and progress tracking, CyberQuest helps users strengthen their cybersecurity skills while earning rewards and competing on leaderboards.",
+          difficulty: "Hard",
+      tags: ["Gamefication", "Cyber Awareness"],
+      sdg: "Uncategorized",
       fullDescription:
-        "IoT devices often lack robust security measures, making them vulnerable to unauthorized access, data breaches, and exploitation in larger cyberattacks. Traditional authentication methods are either too resource-intensive for constrained IoT devices or too simplistic to provide adequate protection. There is a need for a secure, lightweight authentication system specifically designed for IoT ecosystems. This solution should implement multi-factor authentication, secure key management, and anomaly detection while being optimized for devices with limited computational resources. By enhancing IoT security without compromising performance, this system will protect sensitive data, prevent device hijacking, and strengthen the overall security posture of interconnected systems.",
-    },
+        "Design an educational game that teaches users about cybersecurity practices like password management, phishing detection, and safe browsing through interactive challenges and levels. The game should simulate real-world scenarios to help users identify threats, create strong passwords, and recognize suspicious activities. It should provide feedback and tips to reinforce learning and track user progress to encourage continuous improvement. The solution can be developed as a mobile or web-based game with leaderboards and rewards to enhance user engagement."
+        },
         {
       id: 49,
       title: "Secure Authentication System for IoT Devices",
