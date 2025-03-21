@@ -141,6 +141,28 @@ export default function IoTProblemsPage() {
       fullDescription:
         "In industrial manufacturing, undetected defects, unexpected equipment failures, and inefficiencies in production processes contribute to significant financial losses and reduced productivity. Traditional quality control methods and maintenance schedules often fail to prevent machine breakdowns or detect defects early enough to avoid costly rework. An AI-powered IoT system can integrate machine vision, real-time sensor analytics, and predictive maintenance algorithms to monitor production lines continuously. By identifying anomalies, predicting failures before they occur, and optimizing machine performance, this system can enhance operational efficiency, reduce downtime, and minimize waste in smart factories.",
     },
+    {
+      id: 40,
+      title: "IoT-Based System for Early Detection and Mitigation of Wildfires",
+      description:
+        "Wildfires pose a significant threat to ecosystems, property, and human lives. Early detection and rapid response are crucial for effective wildfire management.",
+      difficulty: "Medium",
+      tags: ["Early Detection", "Disaster Management", "Prevention"],
+      sdg: "SDG 11: Sustainable Cities and Communities",
+      fullDescription:
+        "Wildfires pose a severe risk to the environment, property, and human lives, often spreading rapidly before effective containment measures can be deployed. Traditional wildfire detection methods rely on manual observations, satellite imagery, or delayed  sensor data, which may not provide real-time insights. An IoT-based early detection system can leverage a network of sensors to continuously monitor temperature, humidity, wind speed, and smoke levels. Using AI-driven predictive modeling, the system can detect early warning signs and provide real-time alerts to emergency responders, enabling faster intervention and reducing the devastating impact of wildfires."
+    },
+    {
+      id: 41,
+      title: "Develop a Smart Wearable for Fetal Health Monitoring",
+      description:
+        "An IoT-enabled wearable for pregnant women that continuously monitors fetal health, including heart rate, movement, and oxygen levels. Powered by AI, it provides real-time insights and alerts healthcare providers for timely intervention in case of anomalies.",
+      difficulty: "Medium",
+      tags: ["Health Care", "Safety", "Fetal Monitoring"],
+      sdg: "SDG 3: Good Health and Wellbeing",
+      fullDescription:
+        "Develop a non-invasive, IoT-enabled wearable device for pregnant women that continuously monitors fetal health parameters such as heart rate, movement, and oxygen levels. The device should use AI-driven analytics to detect anomalies, provide real-time insights via a mobile app, and send automated alerts to healthcare providers in case of potential complications, ensuring timely medical intervention."
+    },
   ]
 
   // Software problems
