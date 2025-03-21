@@ -14,15 +14,26 @@ export default function BlockchainPage() {
   const softwareProblems = [
     {
       id: 49,
-      title: "Blockchain-Based Supply Chain Traceability System",
+      title: "Blockchain-Based Peer-to-Peer Energy Sharing",
       description:
-        "Develop a blockchain solution that enables end-to-end traceability and transparency in supply chains.",
+        "Develop a blockchain solution for  Peer-to-Peer Energy Sharing",
       difficulty: "Hard",
       tags: ["Supply Chain", "Traceability", "Distributed Ledger"],
       sdg: "SDG 12: Responsible Consumption and Production",
       fullDescription:
-        "Modern supply chains are complex, opaque, and vulnerable to fraud, counterfeiting, and inefficiencies. Stakeholders and consumers lack visibility into product origins, manufacturing conditions, and distribution paths, leading to trust issues and compliance challenges. Traditional centralized tracking systems are susceptible to manipulation and often create information silos between different supply chain participants. A blockchain-based supply chain traceability system can address these challenges by creating an immutable, transparent record of a product's journey from source to consumer. This solution should enable real-time tracking, secure data sharing between stakeholders, and verification of product authenticity and compliance. By enhancing transparency and accountability, this system will reduce fraud, improve quality control, and enable more sustainable and ethical supply chain practices.",
+        "Create a platform that enables communities to share surplus renewable energy using blockchain technology for secure and transparent transactions. The platform should allow users to trade excess energy generated from solar panels or wind turbines directly with others in the community. Smart contracts should automate the transaction process, ensuring real-time tracking of energy generation, consumption, and pricing. The solution can be developed as a mobile and web application with secure wallets and real-time data visualization.",
     },
+      {
+      id: 100,
+      title: "Accessible Voting Platform with Blockchain Integration",
+      description:
+        "Traditional voting systems can be vulnerable to fraud, errors, and inconvenience, particularly for geographically dispersed voters.So Develop an Accessible Voting Platform with Blockchain Integration",
+      difficulty: "Hard",
+      tags: ["Supply Chain", "Traceability", "Distributed Ledger"],
+      sdg: "SDG 12: Responsible Consumption and Production",
+      fullDescription:
+        "Despite the rapid growth of online education, many e-learning platforms lack accessibility features for learners with disabilities. Individuals with visual, auditory, cognitive, or motor impairments often struggle to engage with traditional digital learning resources, which may not support screen readers, voice commands, or alternative input methods. This lack of inclusivity widens the educational gap, preventing differently abled learners from fully participating in online courses and professional development opportunities. A fully accessible e-learning platform can incorporate assistive technologies, adaptive learning tools, and AI-powered customizations to ensure a seamless and inclusive learning experience for all."
+      },
   ]
 
   return (
