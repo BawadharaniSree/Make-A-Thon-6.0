@@ -19,7 +19,7 @@ export default function ApplicationDevelopmentPage() {
         "Develop a user-centric solution to make car-sharing more accessible and convenient for urban commuters.",
       difficulty: "Medium",
       tags: ["Urban Mobility", "Sharing Economy", "User Experience"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+      sdg: "SDG 11: Sustainable Cities and Communities",
       fullDescription:
         "Urban commuters face significant challenges in accessing convenient and reliable car-sharing services due to limited vehicle availability, complex booking systems, and concerns about trust and security. These barriers discourage adoption, leading to continued reliance on personal vehicles, contributing to traffic congestion, parking shortages, and environmental pollution. Additionally, inefficient use of urban parking spaces further exacerbates these issues. There is a need for a user-centric solution that simplifies car-sharing access, enhances user trust, and integrates a shared parking feature, allowing individuals to rent out unused parking spots. This approach will optimize urban mobility, reduce congestion, and promote sustainable transportation solutions.",
     },
