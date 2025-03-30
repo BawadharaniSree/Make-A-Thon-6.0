@@ -27,7 +27,7 @@ export default function EnergyPowerPage() {
         "Integrate intermittent Renewable Energy sources and support/stabilize the grid with an efficient Energy Storage System.",
       difficulty: "Hard",
       tags: ["Renewable Energy", "Grid Stability", "Energy Storage"],
-      sdg: "Uncategorized",
+      sdg: "SDG 7: Affordable and Clean Energy",
       fullDescription:
         "The increasing reliance on renewable energy sources such as solar and wind presents challenges due to their intermittent nature, leading to fluctuations in power generation and grid instability. Traditional energy storage solutions often suffer from inefficiencies, high costs, and limited scalability, making it difficult to integrate renewables effectively and ensure a stable power supply. To address these challenges, the development of an efficient Energy Storage System (ESS) is needed. This system will store excess renewable energy, provide backup during low generation periods, and support grid stabilization, enabling a more reliable, sustainable, and resilient energy infrastructure.",
     },
