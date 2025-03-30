@@ -68,7 +68,7 @@ export default function MiscPage() {
   "tags": ["E-Waste Management", "Sustainability", "Recycling", "Industrial Partnerships"],
   "sdg": "SDG 12: Responsible Consumption and Production",
   "fullDescription": "The initiative intends to collect, classify, process, recycle, and repurpose electronic waste to promote environmental sustainability and generate financial returns by integrating e-waste management in educational institutions through industrial partnerships."
-}
+},
 
   ]
 
