@@ -60,15 +60,16 @@ export default function MiscPage() {
       "sdg": "SDG 9: Industry, Innovation, and Infrastructure",
       "fullDescription": "Implement a communication protocol for satellites to share information and data continuously between satellite and ground stations. This protocol should prioritize data security and reliability in transmission."
     },
-    // {
-    //   "id": 55,
-    //   "title": "Space Debris Tracking and Mitigation: ",
-    //   "description": "Develop methods for tracking and mitigating space debris using optical sensors and specialized algorithms to prevent collisions and ensure space sustainability.",
-    //   "difficulty": "Hard",
-    //   "tags": ["Aerospace", "Space Technology", "AI & Computer Vision"],
-    //   "sdg": "SDG 9: Industry, Innovation, and Infrastructure",
-    //   "fullDescription": "Create innovative approaches for monitoring space debris using Optical sensors, complemented by specialized algorithms. The focus should be on strategies for collision avoidance and the removal of debris."
-    // }
+    {
+  "id": 55,
+  "title": "E-Waste Management in Educational Institutions through Industrial Partnerships",
+  "description": "Develop a system to collect, classify, process, recycle, and repurpose electronic waste in educational institutions through collaborations with industries to promote sustainability and financial returns.",
+  "difficulty": "Medium",
+  "tags": ["E-Waste Management", "Sustainability", "Recycling", "Industrial Partnerships"],
+  "sdg": "SDG 12: Responsible Consumption and Production",
+  "fullDescription": "The initiative intends to collect, classify, process, recycle, and repurpose electronic waste to promote environmental sustainability and generate financial returns by integrating e-waste management in educational institutions through industrial partnerships."
+}
+
   ]
 
   return (
