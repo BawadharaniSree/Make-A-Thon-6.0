@@ -16,7 +16,7 @@ export default function EdgeAIPage() {
         "Create an autonomous surveillance system integrated with Edge AI for localized processing of high-resolution video streams.",
       difficulty: "Hard",
       tags: ["Surveillance", "Video Analytics", "Security"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+      sdg: "SDG 16: Peace, Justice, and Strong Institutions",
       fullDescription:
         "Create an autonomous surveillance system integrated with Edge AI for localized processing of high-resolution video streams. The system should support advanced anomaly detection, motion tracking, and real-time facial recognition, reducing dependency on centralized cloud infrastructure.",
     },
