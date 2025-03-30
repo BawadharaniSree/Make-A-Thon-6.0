@@ -16,7 +16,7 @@ export default function ScrollingAnnouncement({
   eventLocation = "Sri Venkateswara College of Engineering",
   registrationDeadline = "April 4, 2025",
   problemStatement = "Phase 1 Problem Statement Released",
-  stayTuned = "Stay Tuned for Phase 2 Problem Statement",
+  stayTuned = "Phase 2 Problem Statement Released",
 }: ScrollingAnnouncementProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
