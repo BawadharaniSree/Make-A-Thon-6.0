@@ -54,6 +54,17 @@ export default function EmbeddedPage() {
       fullDescription:
         "Develop a wearable device that monitors a user's posture using gyroscopic and pressure sensors. The device should provide real-time haptic feedback (vibrations) when poor posture is detected and sync with a mobile app to track posture improvement over time. The system should be lightweight, comfortable, and suitable for long-term use, especially for students and professionals who spend extended hours sitting.",
     },
+    {
+    id: 50, 
+      title: "Extending the Range and Scalability of Zigbee Networks",
+      description:
+        "Develop methods and technologies to extend the reach of Zigbee networks for larger homes and future device expansion.",
+      difficulty: "Medium",
+      tags: ["IoT", "Wireless Communication", "Home Automation"],
+      sdg: "SDG 4: Quality Education",
+      fullDescription:
+        "Zigbee is a popular wireless communication protocol for IoT devices due to its low power consumption and reliable performance in short-range communications. However, it has a limited range compared to Wi-Fi, which may pose challenges when used in larger homes or environments requiring coverage over extended areas. To address this limitation and ensure scalability for future device additions, there is a need to develop methods and technologies that can extend the reach of Zigbee networks. This could involve implementing network topology enhancements, such as mesh networking, deploying Zigbee repeaters, or integrating Zigbee with other communication protocols. The solution should ensure that the Zigbee network can maintain its low power consumption while supporting an increasing number of devices and covering larger areas without sacrificing performance.",
+    },
   ]
 
   // Software problems
