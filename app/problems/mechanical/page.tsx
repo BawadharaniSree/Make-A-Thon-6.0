@@ -16,7 +16,7 @@ export default function MechanicalPage() {
         "Development of innovative design for flushing systems in western toilet sheets which can be used for deployment in public toilets.",
       difficulty: "Medium",
       tags: ["Water Waste Management", "Automation", "Sustainability"],
-      sdg: "Uncategorized",
+      sdg: "SDG 16: Peace, Justice, and Strong Institutions",
       fullDescription:
         "The objective is to develop an innovative and efficient flushing system specifically designed for western toilet seats used in public toilets. The system should focus on water conservation, hygiene, and ease of maintenance. It should ensure effective cleaning with minimal water usage and prevent clogging or leakage. The design must be durable, costeffective, and capable of withstanding frequent use in high-traffic public areas. Additionally, features like touchless operation, automatic flushing, and self-cleaning mechanisms can improve user hygiene and reduce the need for manual cleaning."
     },
