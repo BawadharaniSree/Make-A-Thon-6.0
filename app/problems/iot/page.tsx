@@ -27,7 +27,7 @@ export default function IoTProblemsPage() {
         "Design a system that integrates a virtual receptionist with a smart lock, allowing homeowners to remotely manage visitor access.",
       difficulty: "Medium",
       tags: ["Home Security", "Smart Home", "Authentication"],
-      sdg: "Uncategorized",
+      sdg: "SDG 11: Sustainable Cities and Communities",
       fullDescription:
         "Traditional home security systems and visitor management methods often lack efficiency, convenience, and real-time control. Homeowners face challenges in managing visitor access, especially when they are away, leading to security concerns and missed deliveries or appointments. Conventional lock-and-key systems are vulnerable to unauthorized access, while physical receptionists or intercom-based solutions can be inconvenient. To address these issues, a smart receptionist with an integrated smart lock system is needed. This solution will enable homeowners to authenticate visitors, schedule access remotely, and enhance security through AI-driven verification and real-time monitoring, ensuring both safety and convenience.",
     },
@@ -71,7 +71,7 @@ export default function IoTProblemsPage() {
         "Create a helmet equipped with sensors to detect accidents and automatically send alerts with the rider's real-time location.",
       difficulty: "Medium",
       tags: ["Safety", "Wearables", "Emergency Response"],
-      sdg: "Uncategorized",
+      sdg: "SDG 3: Good Health and Well-being",
       fullDescription:
         "Road accidents involving two-wheeler riders often lead to severe injuries or fatalities due to delayed emergency response. In many cases, riders are unable to call for help immediately after an accident, making timely medical assistance difficult. Additionally, the lack of real-time health monitoring and emergency alert systems increases the risk of critical situations going unnoticed. There is a need for a solution that can automatically detect accidents, alert emergency contacts with real-time location updates, and provide essential safety features to enhance rider protection.",
     },
@@ -97,17 +97,17 @@ export default function IoTProblemsPage() {
       fullDescription:
         "Establish a Data Insights and Strategic Unit (DISU) at the divisional level to serve as the nerve center for administration, governance, and control over the national postal network. The unit should leverage digitization and data-driven governance to monitor key performance indicators (KPIs), analyze operational data, and provide real-time insights. It should feature advanced data visualization tools, predictive analytics for resource allocation, and automated feedback mechanisms to improve decision-making and service efficiency. The solution should integrate with existing postal systems and provide a secure, centralized dashboard for strategic planning.",
     },
-    // {
-    //   id: 35,
-    //   title: "IoT-Based Adaptive Traffic Signal System",
-    //   description:
-    //     "Develop an IoT-based adaptive traffic signal system that dynamically adjusts signal timings based on real-time traffic conditions.",
-    //   difficulty: "Medium",
-    //   tags: ["Smart City", "Traffic Management", "Urban Mobility"],
-    //   sdg: "SDG 4: Quality Education",
-    //   fullDescription:
-    //     "Fixed-timer traffic signals worsen urban congestion, leading to delays, excess fuel consumption, and pollution. An IoT-based adaptive traffic signal system can leverage real-time sensor data to dynamically adjust signal timings based on traffic density, vehicle speeds, and pedestrian flow. Integrating AI-driven analytics can further optimize traffic patterns and prevent bottlenecks. Developing this system will enhance mobility, reduce emissions, and create a more efficient urban transport network.",
-    // },
+    {
+      id: 35,
+      title: "IoT-Based Adaptive Traffic Signal System",
+      description:
+        "Develop an IoT-based adaptive traffic signal system that dynamically adjusts signal timings based on real-time traffic conditions.",
+      difficulty: "Medium",
+      tags: ["Smart City", "Traffic Management", "Urban Mobility"],
+      sdg: "SDG 11: Sustainable Cities and Communities",
+      fullDescription:
+        "Fixed-timer traffic signals worsen urban congestion, leading to delays, excess fuel consumption, and pollution. An IoT-based adaptive traffic signal system can leverage real-time sensor data to dynamically adjust signal timings based on traffic density, vehicle speeds, and pedestrian flow. Integrating AI-driven analytics can further optimize traffic patterns and prevent bottlenecks. Developing this system will enhance mobility, reduce emissions, and create a more efficient urban transport network.",
+    },
     {
       id: 36,
       title: "IoT System for Search and Rescue Missions",
@@ -115,21 +115,21 @@ export default function IoTProblemsPage() {
         "Design an IoT system that uses drones, wearable devices, and sensors to improve search and rescue missions in challenging environments.",
       difficulty: "Hard",
       tags: ["Drones", "Emergency Response", "Search and Rescue"],
-      sdg: "Uncategorized",
+      sdg: "SDG 11: Sustainable Cities and Communities",
       fullDescription:
         "Search and rescue (SAR) missions in challenging environments, such as forests, mountains, or disaster-stricken areas, often face difficulties in locating and assisting victims quickly and efficiently. Traditional methods rely heavily on manual labor, which can be time-consuming, dangerous, and inefficient. There is a need to design an IoT-based system that integrates drones, wearable devices, and sensors to enhance the efficiency and effectiveness of SAR operations. The system should allow drones to cover large areas rapidly, providing real-time aerial views, while wearable devices worn by rescuers or victims can transmit health data, location, and vital signs. Sensors placed in strategic locations can monitor environmental conditions, detect movement, and identify hazards, ensuring more accurate and timely responses. This integrated IoT system can provide better coordination, faster victim identification, and safer operations, ultimately saving lives in high-risk search and rescue missions.",
     },
-    {
-      id: 38,
-      title: "IoT-Based System for Early Detection of Wildfires",
-      description:
-        "Develop an IoT-based system that leverages sensors to continuously monitor environmental conditions and detect early signs of wildfires.",
-      difficulty: "Hard",
-      tags: ["Environmental Monitoring", "Disaster Prevention", "Early Warning"],
-      sdg: "SDG 11: Sustainable Cities and Communities",
-      fullDescription:
-        "Wildfires pose a severe risk to the environment, property, and human lives, often spreading rapidly before effective containment measures can be deployed. Traditional wildfire detection methods rely on manual observations, satellite imagery, or delayed sensor data, which may not provide real-time insights. An IoT-based early detection system can leverage a network of sensors to continuously monitor temperature, humidity, wind speed, and smoke levels. Using AI-driven predictive modeling, the system can detect early warning signs and provide real-time alerts to emergency responders, enabling faster intervention and reducing the devastating impact of wildfires.",
-    },
+    // {
+    //   id: 38,
+    //   title: "IoT-Based System for Early Detection of Wildfires",
+    //   description:
+    //     "Develop an IoT-based system that leverages sensors to continuously monitor environmental conditions and detect early signs of wildfires.",
+    //   difficulty: "Hard",
+    //   tags: ["Environmental Monitoring", "Disaster Prevention", "Early Warning"],
+    //   sdg: "SDG 11: Sustainable Cities and Communities",
+    //   fullDescription:
+    //     "Wildfires pose a severe risk to the environment, property, and human lives, often spreading rapidly before effective containment measures can be deployed. Traditional wildfire detection methods rely on manual observations, satellite imagery, or delayed sensor data, which may not provide real-time insights. An IoT-based early detection system can leverage a network of sensors to continuously monitor temperature, humidity, wind speed, and smoke levels. Using AI-driven predictive modeling, the system can detect early warning signs and provide real-time alerts to emergency responders, enabling faster intervention and reducing the devastating impact of wildfires.",
+    // },
     {
       id: 39,
       title: "IoT-Powered System for Manufacturing Defect Detection",
@@ -137,7 +137,7 @@ export default function IoTProblemsPage() {
         "Develop an IoT-powered system with AI-driven computer vision for real-time defect detection and predictive maintenance in manufacturing.",
       difficulty: "Hard",
       tags: ["Manufacturing", "Quality Control", "Predictive Maintenance"],
-      sdg: "SDG 3: Good Health and Well-being",
+      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
       fullDescription:
         "In industrial manufacturing, undetected defects, unexpected equipment failures, and inefficiencies in production processes contribute to significant financial losses and reduced productivity. Traditional quality control methods and maintenance schedules often fail to prevent machine breakdowns or detect defects early enough to avoid costly rework. An AI-powered IoT system can integrate machine vision, real-time sensor analytics, and predictive maintenance algorithms to monitor production lines continuously. By identifying anomalies, predicting failures before they occur, and optimizing machine performance, this system can enhance operational efficiency, reduce downtime, and minimize waste in smart factories.",
     },
