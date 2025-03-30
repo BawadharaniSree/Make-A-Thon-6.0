@@ -38,7 +38,7 @@ export default function RoboticsPage() {
         "Build a prosthetic limb that uses sensors and actuators to adapt its grip or movement based on the user's activity.",
       difficulty: "Hard",
       tags: ["Prosthetics", "Adaptive Systems", "Assistive Technology"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+      sdg: "SDG 3: Good Health and Well-being",
       fullDescription:
         "Build a prosthetic limb equipped with sensors and actuators that automatically adjust its grip or movement based on the user's activity. The prosthetic should use AI to analyze muscle signals, pressure, and motion data to adapt to different tasks such as gripping objects, walking, or running. It should provide real-time feedback to enhance comfort and precision. The solution can include a companion app for calibration, activity tracking, and customization.",
     },
@@ -49,7 +49,7 @@ export default function RoboticsPage() {
         "Create a robot equipped with thermal imaging cameras and water cannons to assist in extinguishing fires in hazardous areas.",
       difficulty: "Hard",
       tags: ["Fire Safety", "Autonomous Systems", "Emergency Response"],
-      sdg: "Uncategorized",
+      sdg: "SDG 11: Sustainable Cities and Communities",
       fullDescription:
         "Create a robot equipped with thermal imaging cameras and water cannons to assist in extinguishing fires in hazardous areas. The robot should use AI-based navigation to detect fire sources, avoid obstacles, and determine the most effective firefighting strategy. It should autonomously adjust water pressure and targeting based on fire intensity and location. The solution can include remote control functionality and real-time monitoring through a mobile or web-based interface.",
     },
