@@ -18,6 +18,7 @@ import {
   Lightbulb,
   Cog,
   Factory,
+  Puzzle,
 } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -120,6 +121,12 @@ const ThemeSection = () => {
       title: "Industry",
       description: "Phase 2: Real Time Problem Statements from Industry",
       route: "/problems/Industry",
+    },
+    {
+      icon: <Puzzle className="h-10 w-10 text-cyan-400" />,
+      title: "Open Innovation",
+      description: "Phase 2: Open Innovation",
+      route: "/problems/open",
     },
   ]
 

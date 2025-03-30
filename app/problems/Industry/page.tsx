@@ -9,21 +9,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export default function MiscPage() {
   // Hardware problems
   const hardwareProblems = [
-    // {
-    //   id: 4,
-    //   title: "Combat Social Isolation and Promote Mental Well-being",
-    //   description:
-    //     "Design products or platforms that combat social isolation and promote mental well-being, such as virtual companionship tools, community engagement platforms, or cognitive stimulation devices.",
-    //   difficulty: "Medium",
-    //   tags: ["Mental Health", "Social Connection", "Assistive Technology"],
-    //   sdg: "SDG 3: Good Health and Well-being",
-    //   fullDescription:
-    //     "Social isolation and loneliness are growing concerns, negatively impacting mental wellbeing and overall quality of life. Many individuals, including the elderly, remote workers, and people with disabilities, struggle to maintain meaningful social connections due to physical distance, limited mobility, or lack of community engagement opportunities. Traditional solutions often fail to provide personalized, interactive, and easily accessible support. To address these challenges, innovative products or platforms are needed to foster social interaction, provide virtual companionship, and enhance mental stimulation. By leveraging AI, digital communities, and interactive tools, these solutions can combat loneliness, improve emotional well-being, and create a sense of belonging."
-    // },
-  ]
-
-  // Software problems
-  const softwareProblems = [
     {
       "id": 51,
       "title": "Space Debris Tracking and Mitigation: ",
@@ -43,6 +28,20 @@ export default function MiscPage() {
       "fullDescription": "Design an electronics system that can monitor the health of satellite subsystems and detect faults in real time. The system should implement recovery strategies to isolate faulty components and maintain overall satellite functionality."
     },
     {
+      "id": 55,
+      "title": "E-Waste Management in Educational Institutions through Industrial Partnerships",
+      "description": "Develop a system to collect, classify, process, recycle, and repurpose electronic waste in educational institutions through collaborations with industries to promote sustainability and financial returns.",
+      "difficulty": "Medium",
+      "tags": ["E-Waste Management", "Sustainability", "Recycling", "Industrial Partnerships"],
+      "sdg": "SDG 12: Responsible Consumption and Production",
+      "fullDescription": "The initiative intends to collect, classify, process, recycle, and repurpose electronic waste to promote environmental sustainability and generate financial returns by integrating e-waste management in educational institutions through industrial partnerships."
+    },
+  ]
+
+  // Software problems
+  const softwareProblems = [
+ 
+    {
       "id": 53,
       "title": "Implement a Data Compression Algorithm for Satellite Imagery: ",
       "description": "Create an efficient algorithm for compressing satellite imagery, reducing data transmission while preserving quality for onboard processing.",
@@ -60,15 +59,7 @@ export default function MiscPage() {
       "sdg": "SDG 9: Industry, Innovation, and Infrastructure",
       "fullDescription": "Implement a communication protocol for satellites to share information and data continuously between satellite and ground stations. This protocol should prioritize data security and reliability in transmission."
     },
-    {
-  "id": 55,
-  "title": "E-Waste Management in Educational Institutions through Industrial Partnerships",
-  "description": "Develop a system to collect, classify, process, recycle, and repurpose electronic waste in educational institutions through collaborations with industries to promote sustainability and financial returns.",
-  "difficulty": "Medium",
-  "tags": ["E-Waste Management", "Sustainability", "Recycling", "Industrial Partnerships"],
-  "sdg": "SDG 12: Responsible Consumption and Production",
-  "fullDescription": "The initiative intends to collect, classify, process, recycle, and repurpose electronic waste to promote environmental sustainability and generate financial returns by integrating e-waste management in educational institutions through industrial partnerships."
-},
+
 
   ]
 
