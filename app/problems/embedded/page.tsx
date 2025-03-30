@@ -16,7 +16,7 @@ export default function EmbeddedPage() {
         "Create a helmet that provides firefighters with real-time thermal imaging and environmental data in hazardous conditions.",
       difficulty: "Hard",
       tags: ["Safety Equipment", "Thermal Imaging", "Emergency Response"],
-      sdg: "Uncategorized",
+      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
       fullDescription:
         "Firefighters often face extreme environments with poor visibility, high temperatures, and unpredictable hazards, making it difficult to locate victims, navigate safely, and assess fire intensity. Traditional firefighting gear lacks real-time situational awareness tools, increasing the risk of injury and reducing operational efficiency. To address these challenges, a smart firefighting helmet with integrated thermal imaging and environmental sensors is needed. This helmet will provide real-time heat signatures, smoke penetration visibility, and crucial environmental data, enabling firefighters to make informed decisions, improve rescue operations, and enhance overall safety in hazardous conditions.",
     },
@@ -27,7 +27,7 @@ export default function EmbeddedPage() {
         "Develop a special writing pen and writing pad to help children with specific learning disabilities improve their writing skills.",
       difficulty: "Medium",
       tags: ["Assistive Technology", "Education", "Special Needs"],
-      sdg: "Uncategorized",
+      sdg: "SDG 4: Quality Education",
       fullDescription:
         "The goal is to design a special writing pen and writing pad to help children with specific learning disabilities (SLD) improve their writing skills. The pen and pad should be easy to use, comfortable to hold, and help children practice writing letters and numbers correctly. The system can include features like guided tracing, audio feedback, and error correction to make learning more fun and interactive. This tool aims to support children in developing better handwriting, coordination, and confidence in their learning.",
     },
