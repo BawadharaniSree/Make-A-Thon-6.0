@@ -114,6 +114,12 @@ const ThemeSection = () => {
       description: "Explore innovative solutions across various domains and interdisciplinary fields.",
       route: "/problems/misc",
     },
+    {
+      icon: <Lightbulb className="h-10 w-10 text-cyan-400" />,
+      title: "Industry",
+      description: "Explore innovative solutions across various domains and interdisciplinary fields.",
+      route: "/problems/Industry",
+    },
   ]
 
   return (
