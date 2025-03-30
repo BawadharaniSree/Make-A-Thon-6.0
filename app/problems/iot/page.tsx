@@ -73,7 +73,7 @@ export default function IoTProblemsPage() {
       tags: ["Safety", "Wearables", "Emergency Response"],
       sdg: "Uncategorized",
       fullDescription:
-        "Create a helmet equipped with sensors to detect accidents such as falls or collisions. Upon detecting an impact, the helmet should automatically send alerts with the rider's real-time location to emergency contacts or services via GPS and mobile networks. It should also include features like voice assistance, SOS buttons, and health monitoring. The solution can be developed with a mobile app interface for configuration and status updates.",
+        "Road accidents involving two-wheeler riders often lead to severe injuries or fatalities due to delayed emergency response. In many cases, riders are unable to call for help immediately after an accident, making timely medical assistance difficult. Additionally, the lack of real-time health monitoring and emergency alert systems increases the risk of critical situations going unnoticed. There is a need for a solution that can automatically detect accidents, alert emergency contacts with real-time location updates, and provide essential safety features to enhance rider protection.",
     },
     {
       id: 28,
