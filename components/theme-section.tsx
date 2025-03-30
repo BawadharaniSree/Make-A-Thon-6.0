@@ -17,6 +17,7 @@ import {
   ImageIcon,
   Lightbulb,
   Cog,
+  Factory,
 } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -115,7 +116,7 @@ const ThemeSection = () => {
       route: "/problems/misc",
     },
     {
-      icon: <Lightbulb className="h-10 w-10 text-cyan-400" />,
+      icon: <Factory className="h-10 w-10 text-cyan-400" />,
       title: "Industry",
       description: "Explore innovative solutions across various domains and interdisciplinary fields.",
       route: "/problems/Industry",
