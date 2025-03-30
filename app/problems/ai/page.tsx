@@ -19,7 +19,7 @@ export default function AIProblemsPage() {
         "Develop an AI-driven platform that adapts educational content to individual learning styles and paces, enhancing student engagement and comprehension.",
       difficulty: "Medium",
       tags: ["Education", "Machine Learning", "Personalization"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+      sdg: "SDG 4: Quality Education",
       fullDescription:
         "Traditional e-learning platforms follow a one-size-fits-all approach, which often fails to cater to the diverse learning styles, paces, and needs of individual students. This lack of personalization leads to disengagement, ineffective learning, and knowledge gaps. Additionally, students struggle with varying levels of comprehension, requiring tailored support to optimize their learning experience. To address these challenges, an AI-driven personalized e-learning platform is needed to dynamically adapt content, provide real-time feedback, and offer customized learning pathways. This solution will enhance student engagement, improve comprehension, and ensure an effective, learner-centric educational experience.",
     },
@@ -41,7 +41,7 @@ export default function AIProblemsPage() {
         "Create a system that automatically detects and identifies defective items or exhibits in manufacturing units and quality inspection areas.",
       difficulty: "Medium",
       tags: ["Computer Vision", "Quality Control", "Manufacturing"],
-      sdg: "Uncategorized",
+      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
       fullDescription:
         "The AI-Based Defective Exhibit Identification System aims to automatically detect and identify defective items or exhibits in various settings, such as manufacturing units, quality inspection areas, or exhibitions. Using advanced computer vision and AI algorithms, the system will analyze images or video feeds in real-time to spot defects, damages, or irregularities in products or displays. This solution will help reduce human error, speed up the inspection process, and ensure higher accuracy in identifying defects. By providing instant feedback and reports, the system can improve quality control, reduce operational costs, and enhance overall efficiency. It can be integrated into existing workflows and customized for different industries, ensuring versatility and ease of adoption.",
     },
@@ -74,7 +74,7 @@ export default function AIProblemsPage() {
         "Create an AI-powered financial empowerment platform designed specifically for rural women with personalized financial education in local languages.",
       difficulty: "Medium",
       tags: ["Financial Inclusion", "Rural Development", "NLP"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+      sdg: "SDG 8: Decent Work and Economic Growth",
       fullDescription:
         "Scenario: Lakshmi, a widow and mother of two in a remote village in Odisha, has always dreamed of starting a small dairy business to secure a better future for her children. However, she lacks formal education and is intimidated by the complexities of financial products. Without access to financial literacy resources or tailored banking services, Lakshmi struggles to navigate the financial landscape and fears making decisions that could jeopardize her family's future. Student's Challenge: Create an AI-powered financial empowerment platform designed specifically for rural women like Lakshmi. The platform should provide AI-driven personalized financial education, accessible in local languages, and tailored to varying levels of literacy. It should also offer micro-investment opportunities, AI-powered budgeting tools, and secure, easy-to-understand banking options. Additionally, the solution could include AI-driven mentorship and community support features that connect users with successful female entrepreneurs and financial advisors, fostering a culture of financial independence and confidence.",
     },
