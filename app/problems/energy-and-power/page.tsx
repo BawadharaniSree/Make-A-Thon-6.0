@@ -64,7 +64,7 @@ export default function EnergyPowerPage() {
         "Develop a geospatial web-based portal for estimating the power that can be generated using solar energy based on the size of civilian housing rooftops.",
       difficulty: "Medium",
       tags: ["Geospatial", "Solar Energy", "Web Development"],
-      sdg: "SDG 9: Industry, Innovation, and Infrastructure",
+      sdg: "SDG 7: Affordable and Clean Energy",
       fullDescription:
         "Develop a geospatial web based portal for estimating the power that can be generated using solar energy based on the size of civilian housing rooftops. The system should have the facility to let the user choose an area and based on this, determine how much solar energy can be generated at building level using existing solar radiation related satellite data and some assumptions on the power related configuration of solar cells use Dataset.",
     },
