@@ -32,7 +32,7 @@ export default function BlockchainPage() {
       tags: ["Supply Chain", "Traceability", "Distributed Ledger"],
       sdg: "SDG 12: Responsible Consumption and Production",
       fullDescription:
-        "Despite the rapid growth of online education, many e-learning platforms lack accessibility features for learners with disabilities. Individuals with visual, auditory, cognitive, or motor impairments often struggle to engage with traditional digital learning resources, which may not support screen readers, voice commands, or alternative input methods. This lack of inclusivity widens the educational gap, preventing differently abled learners from fully participating in online courses and professional development opportunities. A fully accessible e-learning platform can incorporate assistive technologies, adaptive learning tools, and AI-powered customizations to ensure a seamless and inclusive learning experience for all."
+        "Despite advancements in digital voting, traditional election systems continue to face challenges related to security, transparency, and accessibility. Geographically dispersed voters, individuals with disabilities, and those with mobility constraints often encounter significant barriers to casting their votes through conventional methods. Additionally, concerns over electoral fraud, administrative errors, and cybersecurity vulnerabilities erode public trust in the democratic process. A blockchain-integrated voting platform offers a secure, transparent, and universally accessible solution by leveraging decentralized ledger technology, biometric authentication, and real-time vote verification."
       },
   ]
 
