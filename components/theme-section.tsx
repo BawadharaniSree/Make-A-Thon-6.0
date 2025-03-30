@@ -118,7 +118,7 @@ const ThemeSection = () => {
     {
       icon: <Factory className="h-10 w-10 text-cyan-400" />,
       title: "Industry",
-      description: "Explore innovative solutions across various domains and interdisciplinary fields.",
+      description: "Phase 2: Real Time Problem Statements from Industry",
       route: "/problems/Industry",
     },
   ]
