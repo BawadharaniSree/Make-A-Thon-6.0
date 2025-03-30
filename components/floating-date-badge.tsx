@@ -20,10 +20,10 @@ export default function FloatingDateBadge() {
             <Calendar className="h-4 w-4 text-cyan-400" />
             <span className="text-white font-bold text-sm">MAKE-A-THON 6.0</span>
           </div>
-          <div className="text-purple-300 text-xs font-medium mb-1">Phase 1 PS Relased</div>
+          <div className="text-purple-300 text-xs font-medium mb-1">Phase 2 PS Released</div>
           <div className="flex items-center gap-1 text-gray-400 text-xs">
             <Clock className="h-3 w-3" />
-            <span>Stay Tuned for Phase 2 !!!</span>
+            <span>Check Out!!!</span>
           </div>
 
           {/* Animated pulse ring */}
