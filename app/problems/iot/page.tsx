@@ -84,7 +84,7 @@ export default function IoTProblemsPage() {
       tags: ["Elderly Care", "Health Monitoring", "Safety"],
       sdg: "SDG 9: Industry, Innovation, and Infrastructure",
       fullDescription:
-        "Develop a wearable device equipped with motion sensors and AI algorithms to detect falls in elderly individuals. Upon detecting a fall, the device should automatically send alerts with the user's real-time location to caregivers or emergency services via mobile networks. It should also monitor vital signs like heart rate and provide real-time health data through a companion mobile app. The device should be lightweight, comfortable, and have long battery life.",
+        "Develop a wearable device that enhances safety for elderly individuals by detecting falls and enabling rapid emergency response. In the event of a fall, immediate alerts with real-time location updates can ensure timely assistance from caregivers or emergency services. Continuous monitoring of vital signs can provide valuable health insights, allowing for proactive care and early intervention. Designed for comfort and ease of use, the device should prioritize long battery life and seamless integration into daily life, offering both security and peace of mind for users and their families.",
     },
     {
       id: 34,
