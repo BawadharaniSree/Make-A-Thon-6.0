@@ -97,17 +97,17 @@ export default function IoTProblemsPage() {
       fullDescription:
         "Establish a Data Insights and Strategic Unit (DISU) at the divisional level to serve as the nerve center for administration, governance, and control over the national postal network. The unit should leverage digitization and data-driven governance to monitor key performance indicators (KPIs), analyze operational data, and provide real-time insights. It should feature advanced data visualization tools, predictive analytics for resource allocation, and automated feedback mechanisms to improve decision-making and service efficiency. The solution should integrate with existing postal systems and provide a secure, centralized dashboard for strategic planning.",
     },
-    {
-      id: 35,
-      title: "IoT-Based Adaptive Traffic Signal System",
-      description:
-        "Develop an IoT-based adaptive traffic signal system that dynamically adjusts signal timings based on real-time traffic conditions.",
-      difficulty: "Medium",
-      tags: ["Smart City", "Traffic Management", "Urban Mobility"],
-      sdg: "SDG 4: Quality Education",
-      fullDescription:
-        "Fixed-timer traffic signals worsen urban congestion, leading to delays, excess fuel consumption, and pollution. An IoT-based adaptive traffic signal system can leverage real-time sensor data to dynamically adjust signal timings based on traffic density, vehicle speeds, and pedestrian flow. Integrating AI-driven analytics can further optimize traffic patterns and prevent bottlenecks. Developing this system will enhance mobility, reduce emissions, and create a more efficient urban transport network.",
-    },
+    // {
+    //   id: 35,
+    //   title: "IoT-Based Adaptive Traffic Signal System",
+    //   description:
+    //     "Develop an IoT-based adaptive traffic signal system that dynamically adjusts signal timings based on real-time traffic conditions.",
+    //   difficulty: "Medium",
+    //   tags: ["Smart City", "Traffic Management", "Urban Mobility"],
+    //   sdg: "SDG 4: Quality Education",
+    //   fullDescription:
+    //     "Fixed-timer traffic signals worsen urban congestion, leading to delays, excess fuel consumption, and pollution. An IoT-based adaptive traffic signal system can leverage real-time sensor data to dynamically adjust signal timings based on traffic density, vehicle speeds, and pedestrian flow. Integrating AI-driven analytics can further optimize traffic patterns and prevent bottlenecks. Developing this system will enhance mobility, reduce emissions, and create a more efficient urban transport network.",
+    // },
     {
       id: 36,
       title: "IoT System for Search and Rescue Missions",
