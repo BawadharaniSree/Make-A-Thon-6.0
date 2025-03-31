@@ -106,7 +106,7 @@ export default function AboutSection({ scrollYProgress }) {
             eventLocation="Sri Venkateswara College of Engineering"
             registrationDeadline="April 4, 2025"
             problemStatement = "Phase 1 Problem Statement Released"
-            stayTuned = "Stay Tuned for Phase 2 Problem Statement"
+            checkOut = "Phase 2 Problem Statement Released"
           />
         </motion.div>
   {/* floating-date - Added at the right end of the website*/}
