@@ -98,12 +98,6 @@ const ThemeSection = () => {
       description: "Build decentralized applications that revolutionize trust and transparency.",
       route: "/problems/blockchain",
     },
-    {/*{
-      icon: <Radio className="h-10 w-10 text-cyan-400" />,
-      title: "Embedded & Communication",
-      description: "Develop systems that combine embedded technology with communication capabilities.",
-      route: "/problems/embedded-communication",
-    },*/}
     {
       icon: <ImageIcon className="h-10 w-10 text-purple-400" />,
       title: "Image Processing",
