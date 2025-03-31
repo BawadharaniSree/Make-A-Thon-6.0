@@ -52,7 +52,7 @@ const ThemeSection = () => {
     },
     {
       icon: <Cpu className="h-10 w-10 text-cyan-400" />,
-      title: "Embedded Systems",
+      title: "Embedded and Communication",
       description: "Design specialized computing systems for dedicated functions within larger systems.",
       route: "/problems/embedded",
     },
