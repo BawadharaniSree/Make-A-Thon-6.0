@@ -26,7 +26,7 @@ const instagramFeed = [
     id: 2,
     image: "/date.jpeg?height=600&width=600",
     caption:
-      "🛠️ BIG REVEAL !!! The National-Level MAKE-A-THON 6.0 - Innovate, Elevate & Collaborate is happening on 16th & 17th April 2025 at Sri Venkateswara College of Engineering 🚀Gear up for an electrifying experience of innovation, technology, and problem-solving !!!Stay tuned for registration details and exciting updates. #makeathon6.o #techshowcase #hackathon #innovation #svce",
+      "🛠️ BIG REVEAL !!! The National-Level MAKE-A-THON 6.0 - Innovate, Elevate & Collaborate is happening on 29th & 30th April 2025 at Sri Venkateswara College of Engineering 🚀Gear up for an electrifying experience of innovation, technology, and problem-solving !!!Stay tuned for registration details and exciting updates. #makeathon6.o #techshowcase #hackathon #innovation #svce",
     likes: 189,
     user: {
       name: "ECEA, IETE-SF, RAIC",
@@ -359,7 +359,7 @@ export default function SocialFeedSection() {
   const terminalMessages = [
     "Initializing Make-a-Thon 6.0 live feed...",
     "The Makeathon website is now live!",
-    "The Dates are released April 16th and 17th 2025",
+    "The Dates are released April 29th and 30th 2025",
     "Phase 1 Problem statement are live now -Go check them out",
     "Registrations are open now",
     "Stay tuned Phase 2 Problem statements ",
