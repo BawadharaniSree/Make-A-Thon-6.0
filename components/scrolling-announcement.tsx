@@ -12,7 +12,7 @@ interface ScrollingAnnouncementProps {
 }
 
 export default function ScrollingAnnouncement({
-  eventDate = "Dates Changed April 29-30, 2025",
+  eventDate = "Date Changed April 29-30, 2025",
   eventLocation = "Sri Venkateswara College of Engineering",
   registrationDeadline = "April 4, 2025",
   problemStatement = "Phase 1 Problem Statement Released",
