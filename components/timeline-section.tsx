@@ -46,7 +46,7 @@ export default function TimelineSection() {
       icon: <Award className="h-6 w-6 text-purple-400" />,
     },
     {
-      date: "April 16, 2025",
+      date: "April 29, 2025",
       //date: "To Be Announced",
       title: "MAKE-A-THON 6.0 - Event Day",
       description: "The wait is over! Witness innovation and creativity as teams bring their ideas to life at MAKE-A-THON 6.0. Let the hacking begin!",
