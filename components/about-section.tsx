@@ -104,7 +104,7 @@ export default function AboutSection({ scrollYProgress }) {
           <ScrollingAnnouncement
             eventDate="Date Changed: April 29-30, 2025"
             eventLocation="Sri Venkateswara College of Engineering"
-            registrationDeadline="April 4, 2025"
+            registrationDeadline="Date Changed: April 14, 2025"
             problemStatement = "Phase 1 Problem Statement Released"
             checkOut = "Phase 2 Problem Statement Released"
           />
