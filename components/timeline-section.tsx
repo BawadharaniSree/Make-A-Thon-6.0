@@ -32,17 +32,24 @@ export default function TimelineSection() {
       icon: <Zap className="h-6 w-6 text-cyan-400" />,
     },
     {
-      date: "April 4, 2025",
+      date: "April 14, 2025",
       //date: "To Be Announced",
       title: "Registration Closes",
       description: "Last chance to sign up and secure your spot for MAKE-A-THON 6.0!",
       icon: <MessageSquare className="h-6 w-6 text-purple-400" />,
     },
     {
-      date: "April 9, 2025",
+      date: "April 23, 2025",
       //date: "To Be Announced",
       title: "Shortlisted Teams Announcement",
       description: "Check out the shortlisted teams for MAKE-A-THON 6.0. Congratulations to all the selected teams!",
+      icon: <Award className="h-6 w-6 text-purple-400" />,
+    },
+    {
+      date: "April 25, 2025",
+      //date: "To Be Announced",
+      title: "Final Confirmation",
+      description: "Congratulations to the shortlisted teams—get ready to shine at MAKE-A-THON 6.0!",
       icon: <Award className="h-6 w-6 text-purple-400" />,
     },
     {
