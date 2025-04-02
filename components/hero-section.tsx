@@ -169,7 +169,7 @@ function CountdownTimer() {
   })
 
   // Target date - March 15, 2025
-  const targetDate = new Date("2025-04-16T09:00:00").getTime()
+  const targetDate = new Date("2025-04-29T09:00:00").getTime()
 
   useEffect(() => {
     const calculateTimeLeft = () => {
