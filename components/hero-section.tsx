@@ -318,12 +318,7 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 1.5 }}
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
-          <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-none px-8 py-6 text-lg shadow-lg shadow-cyan-500/20">
-          <a href="#about" className="cursor-pointer">
-            Learn More
-            </a>
-          </Button>
-          <Button
+           <Button
             variant="outline"
             className="border-cyan-500 text-cyan-400 hover:bg-cyan-950 px-8 py-6 text-lg shadow-lg shadow-cyan-500/20"
           >
@@ -331,6 +326,13 @@ export default function HeroSection() {
             Register Now
             </a>
           </Button>
+          
+          <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-none px-8 py-6 text-lg shadow-lg shadow-cyan-500/20">
+          <a href="#about" className="cursor-pointer">
+            Learn More
+            </a>
+          </Button>
+         
           <Button
             variant="outline"
             className="border-cyan-500 text-cyan-400 hover:bg-cyan-950 px-8 py-6 text-lg shadow-lg shadow-cyan-500/20"
