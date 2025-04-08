@@ -331,6 +331,14 @@ export default function HeroSection() {
             Register Now
             </a>
           </Button>
+          <Button
+            variant="outline"
+            className="border-cyan-500 text-cyan-400 hover:bg-cyan-950 px-8 py-6 text-lg shadow-lg shadow-cyan-500/20"
+          >
+            <a href="https://docs.google.com/presentation/d/1mc2zUR4ufkX848VjtCk6hZOippO4w_3b/edit?usp=drive_link&ouid=116110708186730314134&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+            Abstract Template
+            </a>
+          </Button>
         </motion.div>
 
         </div>
