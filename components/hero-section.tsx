@@ -327,11 +327,6 @@ export default function HeroSection() {
             </a>
           </Button>
           
-          <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-none px-8 py-6 text-lg shadow-lg shadow-cyan-500/20">
-          <a href="#about" className="cursor-pointer">
-            Learn More
-            </a>
-          </Button>
          
           <Button
             variant="outline"
@@ -341,6 +336,14 @@ export default function HeroSection() {
             Abstract Template
             </a>
           </Button>
+
+
+           <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-none px-8 py-6 text-lg shadow-lg shadow-cyan-500/20">
+          <a href="#about" className="cursor-pointer">
+            Learn More
+            </a>
+          </Button>
+          
         </motion.div>
 
         </div>
